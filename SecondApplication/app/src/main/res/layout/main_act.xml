@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_marginBottom="@dimen/marginTextView"
+        android:background="@color/textViewColor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/TextView1Text"
+        android:textSize="@dimen/textSize"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/marginTextView"
+        android:id="@+id/tv2"
+        android:textSize="@dimen/textSize"
+        android:background="@color/textViewColor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/TextView2Text"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/marginBtn"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/btn1Text"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/textSize"
+        android:backgroundTint="@color/btnColors"
+        android:onClick="onAdd"
+        />
+    <Button
+        android:id="@+id/btn2"
+        android:backgroundTint="@color/btnColors"
+        android:layout_marginBottom="@dimen/marginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/btn2Text"
+        android:textSize="15sp"
+        android:textColor="@color/textColor"
+        android:onClick="onCopy"
+        />
+
+</LinearLayout>
