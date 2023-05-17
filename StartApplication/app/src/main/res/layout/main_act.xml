@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/actBack"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:background="@color/btnColor"
+        android:padding="@dimen/padding"
+        android:text="@string/b1"
+        android:textAllCaps="false"
+        android:textColor="@color/foreColor"
+        android:textSize="@dimen/textSize" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:background="@color/btnColor"
+        android:padding="@dimen/padding"
+        android:text="@string/b2"
+        android:textAllCaps="false"
+        android:textColor="@color/foreColor"
+        android:textSize="@dimen/textSize" />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:background="@color/btnColor"
+        android:padding="@dimen/padding"
+        android:text="@string/b3"
+        android:textAllCaps="false"
+        android:textColor="@color/foreColor"
+        android:textSize="@dimen/textSize" />
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:background="@color/btnColor"
+        android:padding="@dimen/padding"
+        android:text="@string/b4"
+        android:textAllCaps="false"
+        android:textColor="@color/foreColor"
+        android:textSize="@dimen/textSize" />
+</LinearLayout>

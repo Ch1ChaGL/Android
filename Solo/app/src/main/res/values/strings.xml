@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Закрепление</string>
+    <string name="btnText">Текст на кнопке</string>
+    <string name="afterClick">Текст на кнопке после клика</string>
+</resources>
