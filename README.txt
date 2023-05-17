@@ -1,1 +1,0 @@
-This repository was created to prepare for the interuniversity championship in software solutions for business

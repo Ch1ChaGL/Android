@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Говно ваша Java</string>
-    <string name="b1">btn1</string>
-    <string name="b2">btn2</string>
-    <string name="b3">btn3</string>
-    <string name="b4">btn4</string>
-    <string name="b5">btn5</string>
-    <string name="afterClick">***</string>
-</resources>
