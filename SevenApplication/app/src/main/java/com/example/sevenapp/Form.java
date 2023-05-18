@@ -8,6 +8,7 @@ import android.widget.ListView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 public class Form extends AppCompatActivity {
 
@@ -23,8 +24,11 @@ public class Form extends AppCompatActivity {
         arrayAdapter1 = new ArrayAdapter<String>(this, R.layout.item);
         arrayAdapter2 = new ArrayAdapter<String>(this, R.layout.item);
 
-        arrayAdapter1.add("FirstList");
-        arrayAdapter2.add("SecondList");
+       String[] ar1 = getResources().getStringArray(R.array.ar1);
+       String[] ar2 = getResources().getStringArray(R.array.ar2);
+
+       arrayAdapter1.addAll(ar1);
+       arrayAdapter2.addAll(ar2);
 
         listView1 = (ListView) findViewById(R.id.listView1);
         listView2 = (ListView) findViewById(R.id.listView2);

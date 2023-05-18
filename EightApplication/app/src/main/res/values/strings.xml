@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EightApp</string>
+
+    <string name="string_element1">string</string>
+    <string name="string_element2">stringSecond</string>
+    <string name="int_element">3int</string>
+    <string name="preferences">Settings</string>
+</resources>
